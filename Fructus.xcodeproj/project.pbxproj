@@ -17,6 +17,10 @@
 		173F121A2621788600E7E50C /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F12192621788600E7E50C /* FruitModel.swift */; };
 		173F121F26217C8C00E7E50C /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F121E26217C8C00E7E50C /* FruitData.swift */; };
 		173F1223262197AB00E7E50C /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F1222262197AB00E7E50C /* FruitRowView.swift */; };
+		173F12262621A42000E7E50C /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F12252621A42000E7E50C /* FruitDetailView.swift */; };
+		1754AE6C26241259002785BF /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754AE6B26241259002785BF /* FruitHeaderView.swift */; };
+		1754AE6F2624169C002785BF /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754AE6E2624169C002785BF /* SourceLinkView.swift */; };
+		1754AE722624197B002785BF /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754AE712624197B002785BF /* FruitNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		173F12192621788600E7E50C /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FruitModel.swift; path = Fructus/Model/FruitModel.swift; sourceTree = SOURCE_ROOT; };
 		173F121E26217C8C00E7E50C /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		173F1222262197AB00E7E50C /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		173F12252621A42000E7E50C /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		1754AE6B26241259002785BF /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		1754AE6E2624169C002785BF /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		1754AE712624197B002785BF /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 				1722C8C2261EE191008CB92F /* FructusApp.swift */,
 				1722C8C3261EE191008CB92F /* OnboardingView.swift */,
 				1722C8D4261EE2D1008CB92F /* ContentView.swift */,
+				173F12252621A42000E7E50C /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -99,6 +108,9 @@
 				1722C8CC261EE1BD008CB92F /* FruitCardView.swift */,
 				1722C8CD261EE1BD008CB92F /* StartButtonView.swift */,
 				173F1222262197AB00E7E50C /* FruitRowView.swift */,
+				1754AE6B26241259002785BF /* FruitHeaderView.swift */,
+				1754AE6E2624169C002785BF /* SourceLinkView.swift */,
+				1754AE712624197B002785BF /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,10 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				173F121F26217C8C00E7E50C /* FruitData.swift in Sources */,
+				1754AE6F2624169C002785BF /* SourceLinkView.swift in Sources */,
 				1722C8CE261EE1BD008CB92F /* FruitCardView.swift in Sources */,
 				173F1223262197AB00E7E50C /* FruitRowView.swift in Sources */,
+				1754AE722624197B002785BF /* FruitNutrientsView.swift in Sources */,
 				1722C8D5261EE2D1008CB92F /* ContentView.swift in Sources */,
+				173F12262621A42000E7E50C /* FruitDetailView.swift in Sources */,
 				1722C8C6261EE191008CB92F /* OnboardingView.swift in Sources */,
+				1754AE6C26241259002785BF /* FruitHeaderView.swift in Sources */,
 				1722C8CF261EE1BD008CB92F /* StartButtonView.swift in Sources */,
 				173F121A2621788600E7E50C /* FruitModel.swift in Sources */,
 				1722C8C5261EE191008CB92F /* FructusApp.swift in Sources */,
